@@ -107,9 +107,7 @@ header {
     width: 100%;   
     align-items: center;
     gap: 250px;
-    color: white;
-    
-    
+    color: white;  
 }
    
     .esquerda-1 h1 {
@@ -162,7 +160,7 @@ hr {
     justify-content: space-between; 
     gap: 20px; 
     margin: 20px auto; 
-    max-width: 1200px; 
+    max-width: 100%; 
 }
 
 .esquerda-2, .direita-2 {
@@ -228,4 +226,14 @@ footer {
         margin-left: 40px;
     }
 
+    .esquerda-1 {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 599px) {
+    #conteudo-2 {
+        flex-wrap: wrap;
+    }
 }
